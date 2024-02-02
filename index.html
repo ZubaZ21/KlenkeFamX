@@ -225,7 +225,7 @@ a.fattachpmlink:hover {text-decoration:none;}
 		var noCentering=false;
 		var defaultZoom=0.74377278991809;
 		var defaultDetail='N';
-		var defaultBirthName=0;
+		var defaultBirthName=2;
 		var defaultSurnameFirst=0;
 		var defaultMaleLeft=0;
 		var defaultCousins=2;
@@ -7018,7 +7018,7 @@ iP5WC5	sB79B4	lWalters-Klenke	pSusan	qWalters	gf
 iRSWK5	lKlenke	pWilliam	qKlenke	gm	mOFU1E	fSTART	sB5NGH	NBill
 iB5NGH	sRSWK5	lBurdick	pRobin	qGreenspan	gf
 iDMAUV	lKlenke	pDeborah	qProctor	gf	mHEO54	fV8LGG	Vb	NDebby
-iSTART	lKlenke	pDonald	qKlenke	gm	z1	sOFU1E	NDon
+iSTART	lKlenke	pDonald	qKlenke	gm	z1	sOFU1E	NDon	mMPCD1	fGSRLB
 iOFU1E	sSTART	lKlenke	pCarol	qFillion	gf
 iRFFMK	lKlenke	pJames	qKlenke	gm	mOFU1E	fSTART	sBD4JJ	NJim
 iBD4JJ	sRFFMK	lKlenke	pGail	qProctor	gf	mHEO54	fV8LGG
@@ -7103,10 +7103,39 @@ iV8LGG	lProctor	pRichard	qProctor	gm	sHEO54
 iHEO54	sV8LGG	lProctor	pGwendolyn	qBetlach	gf
 iSBXTX	pNicole	gf
 iJPI4A	pKathleen	gf
+iGSRLB	^START	gf	lKlenke	sMPCD1	pBeatrice	qNeuville	z1
+iMPCD1	^START	gm	sGSRLB	lKlenke	pOscar	z1	mUAA2L	fP6Z42
+iBDDVR	^START	mMPCD1	fGSRLB	lZettle	qKlenke	pLillian	gf	z1
+iXZR9S	^BDDVR	mMPCD1	fGSRLB	lKnaapen	qKlenke	pMildred Marie	gf	z1	NMickey	sVSCX1
+iP6Z42	^MPCD1	gm	z1	sUAA2L	pLouis	lKlenke	mL7C49	fH9TIO
+iUAA2L	^MPCD1	gf	sP6Z42	z1	pMinnie	lKlenke
+iH9TIO	^P6Z42	gm	z1	sL7C49
+iL7C49	^P6Z42	gf	sH9TIO	z1
+iVB8KG	^P6Z42	mL7C49	fH9TIO	pGeorge	lKlenke	gm	z1
+iGW0QW	^VB8KG	mL7C49	fH9TIO	gf	pElsie	qKlenke	lClausen	z1
+iRXCBR	^GW0QW	mL7C49	fH9TIO	lGrayck	qKlenke	pLottie	z1
+iKFT55	^MPCD1	mUAA2L	fP6Z42	pGust	lKlenke	gm	z1	sHF6G8
+iHF6G8	^KFT55	sKFT55	lKlenke	gf	pMagdelene	z1
+iVSCX1	^XZR9S	sXZR9S	lKnaapen	pBill	gm	z1
+iLCU5Q	^XZR9S	mXZR9S	fVSCX1	lCole	qKnaapen	pJane	gf	sSJ0LM
+iFES5F	^LCU5Q	mXZR9S	fVSCX1	lKnaapen	qJacklevich	pLynn	gf	sH9UE9
+iCXGAO	^FES5F	mXZR9S	fVSCX1	lKnaapen	pBea	gf
+iHPQKZ	^CXGAO	mXZR9S	fVSCX1	pJulie	lRothenfluh	qKnaapen	gf	sTT1CR
+iSE3E8	^HPQKZ	mXZR9S	fVSCX1	lKnaapen	qKnaapen	pWilla	gf
+iG078I	^SE3E8	mXZR9S	fVSCX1	lKnaapen	qKnaapen	pLaura	gf
+iQDEYR	^G078I	mXZR9S	fVSCX1	lKnaapen	qKnaapen	pJoe	gm	sT6RNS
+iCRBWY	^QDEYR	mXZR9S	fVSCX1	lKnaapen	qKnaapen	pTony	gm	sYLUWH
+iO4Z64	^CRBWY	mXZR9S	fVSCX1	lKnaapen	qKnaapen	pDavid	gm	sO52HW
+iSJ0LM	^LCU5Q	sLCU5Q	lCole	pDick	gm
+iH9UE9	^FES5F	sFES5F	lKnaapen	pBob	gm	z1
+iTT1CR	^HPQKZ	sHPQKZ	lRothenfluh	pRuss	gm
+iT6RNS	^QDEYR	sQDEYR	lKnaapen	pLaura	gf
+iYLUWH	^CRBWY	sCRBWY	lKnaapen	gf	pLori
+iO52HW	^O4Z64	sO4Z64	lKnaapen	gf	pTerri
 pB79B4 P5WC5	e2	gm
 pB5NGH RSWK5	e2	gm
 pDMAUV RSWK5	e1	gd
-pOFU1E START	e2	gm
+pOFU1E START	e2	gm	m19500204	wAmerican Martyrs Church in Kingsford, MI
 pBD4JJ RFFMK	e2	gm
 pEOHFQ HKDJ8	e2	gm
 pEOHFQ FE1Y9	e1	gd
@@ -7150,7 +7179,7 @@ pSBXTX TK74U	e1
 1 SOUR Family Echo
 2 WWW https://www.familyecho.com/
 1 FILE Don and Carol's Tree
-1 DATE 25 JAN 2024
+1 DATE 2 FEB 2024
 1 DEST ANSTFILE
 1 GEDC
 2 VERS 5.5.1
@@ -7212,6 +7241,7 @@ pSBXTX TK74U	e1
 1 SEX M
 1 DEAT Y
 1 FAMS @F5@
+1 FAMC @F8@
 0 @I7@ INDI
 1 NAME Carol /Fillion/
 2 GIVN Carol
@@ -7226,7 +7256,7 @@ pSBXTX TK74U	e1
 2 SURN Klenke
 2 _MARNM Klenke
 1 SEX M
-1 FAMS @F8@
+1 FAMS @F9@
 1 FAMC @F5@
 0 @I9@ INDI
 1 NAME Gail /Proctor/
@@ -7234,7 +7264,7 @@ pSBXTX TK74U	e1
 2 SURN Proctor
 2 _MARNM Klenke
 1 SEX F
-1 FAMS @F8@
+1 FAMS @F9@
 1 FAMC @F7@
 0 @I10@ INDI
 1 NAME John /Klenke/
@@ -7243,8 +7273,8 @@ pSBXTX TK74U	e1
 2 _MARNM Klenke
 1 SEX M
 1 DEAT Y
-1 FAMS @F9@
 1 FAMS @F10@
+1 FAMS @F11@
 1 FAMC @F5@
 0 @I11@ INDI
 1 NAME Charlotte /Klenke/
@@ -7252,8 +7282,8 @@ pSBXTX TK74U	e1
 2 SURN Klenke
 2 _MARNM Klenke
 1 SEX F
-1 FAMS @F9@
-1 FAMS @F11@
+1 FAMS @F10@
+1 FAMS @F12@
 0 @I12@ INDI
 1 NAME Robert /Klenke/
 2 GIVN Robert
@@ -7261,7 +7291,7 @@ pSBXTX TK74U	e1
 2 SURN Klenke
 2 _MARNM Klenke
 1 SEX M
-1 FAMS @F12@
+1 FAMS @F13@
 1 FAMC @F5@
 0 @I13@ INDI
 1 NAME Diane /Klenke/
@@ -7270,7 +7300,7 @@ pSBXTX TK74U	e1
 2 _MARNM Klenke
 1 SEX F
 1 DEAT Y
-1 FAMS @F12@
+1 FAMS @F13@
 0 @I14@ INDI
 1 NAME Thomas /Klenke/
 2 GIVN Thomas
@@ -7278,13 +7308,13 @@ pSBXTX TK74U	e1
 2 SURN Klenke
 2 _MARNM Klenke
 1 SEX M
-1 FAMS @F13@
+1 FAMS @F14@
 1 FAMC @F5@
 0 @I15@ INDI
 1 NAME Guillermo
 2 GIVN Guillermo
 1 SEX M
-1 FAMS @F13@
+1 FAMS @F14@
 0 @I16@ INDI
 1 NAME Joseph /Klenke/
 2 GIVN Joseph
@@ -7292,8 +7322,8 @@ pSBXTX TK74U	e1
 2 SURN Klenke
 2 _MARNM Klenke
 1 SEX M
-1 FAMS @F14@
 1 FAMS @F15@
+1 FAMS @F16@
 1 FAMC @F5@
 0 @I17@ INDI
 1 NAME Carolyn /Tapa/
@@ -7301,14 +7331,14 @@ pSBXTX TK74U	e1
 2 SURN Tapa
 1 SEX F
 1 DEAT Y
-1 FAMS @F14@
+1 FAMS @F15@
 0 @I18@ INDI
 1 NAME Shirlyn /Klenke/
 2 GIVN Shirlyn
 2 SURN Klenke
 2 _MARNM Adkins
 1 SEX F
-1 FAMS @F16@
+1 FAMS @F17@
 1 FAMC @F5@
 0 @I19@ INDI
 1 NAME Mark /Adkins/
@@ -7316,7 +7346,7 @@ pSBXTX TK74U	e1
 2 SURN Adkins
 2 _MARNM Adkins
 1 SEX M
-1 FAMS @F16@
+1 FAMS @F17@
 0 @I20@ INDI
 1 NAME David /Klenke/
 2 GIVN David
@@ -7324,7 +7354,7 @@ pSBXTX TK74U	e1
 2 SURN Klenke
 2 _MARNM Klenke
 1 SEX M
-1 FAMS @F17@
+1 FAMS @F18@
 1 FAMC @F5@
 0 @I21@ INDI
 1 NAME Rebecca /Nusbaum/
@@ -7332,14 +7362,14 @@ pSBXTX TK74U	e1
 2 SURN Nusbaum
 2 _MARNM Klenke
 1 SEX F
-1 FAMS @F17@
-1 FAMS @F32@
+1 FAMS @F18@
+1 FAMS @F33@
 0 @I22@ INDI
 1 NAME Mary Ellen /Marchant/
 2 GIVN Mary Ellen
 2 SURN Marchant
 1 SEX F
-1 FAMS @F10@
+1 FAMS @F11@
 0 @I23@ INDI
 1 NAME Anthony /Klenke/
 2 GIVN Anthony
@@ -7347,15 +7377,15 @@ pSBXTX TK74U	e1
 2 SURN Klenke
 2 _MARNM Klenke
 1 SEX M
-1 FAMS @F18@
-1 FAMC @F10@
+1 FAMS @F19@
+1 FAMC @F11@
 0 @I24@ INDI
 1 NAME Jamie /Klenke/
 2 GIVN Jamie
 2 SURN Klenke
 2 _MARNM Klenke
 1 SEX F
-1 FAMS @F18@
+1 FAMS @F19@
 0 @I25@ INDI
 1 NAME Benjamin /Klenke/
 2 GIVN Benjamin
@@ -7363,39 +7393,39 @@ pSBXTX TK74U	e1
 2 SURN Klenke
 2 _MARNM Klenke
 1 SEX M
-1 FAMS @F19@
 1 FAMS @F20@
 1 FAMS @F21@
-1 FAMC @F10@
+1 FAMS @F22@
+1 FAMC @F11@
 0 @I26@ INDI
 1 NAME Cathy /Lynn/
 2 GIVN Cathy
 2 SURN Lynn
 2 _MARNM Lynn
 1 SEX F
-1 FAMS @F19@
+1 FAMS @F20@
 0 @I27@ INDI
 1 NAME Brian /Klenke/
 2 GIVN Brian
 2 SURN Klenke
 2 _MARNM Klenke
 1 SEX M
-1 FAMS @F22@
-1 FAMC @F10@
+1 FAMS @F23@
+1 FAMC @F11@
 0 @I28@ INDI
 1 NAME Arayna /Klenke/
 2 GIVN Arayna
 2 SURN Klenke
 2 _MARNM Klenke
 1 SEX F
-1 FAMS @F22@
+1 FAMS @F23@
 0 @I29@ INDI
 1 NAME Anne /Klenke/
 2 GIVN Anne
 2 SURN Klenke
 2 _MARNM Klenke
 1 SEX F
-1 FAMS @F20@
+1 FAMS @F21@
 0 @I30@ INDI
 1 NAME William /Jay/
 2 GIVN William
@@ -7411,7 +7441,7 @@ pSBXTX TK74U	e1
 2 SURN Jay
 2 _MARNM Jay
 1 SEX F
-1 FAMS @F23@
+1 FAMS @F24@
 1 FAMC @F3@
 0 @I32@ INDI
 1 NAME Trevor /Mahaney/
@@ -7419,14 +7449,14 @@ pSBXTX TK74U	e1
 2 SURN Mahaney
 2 _MARNM Mahaney
 1 SEX M
-1 FAMS @F23@
+1 FAMS @F24@
 0 @I33@ INDI
 1 NAME Michelle /Jay/
 2 GIVN Michelle
 2 SURN Jay
 2 _MARNM Hunter
 1 SEX F
-1 FAMS @F24@
+1 FAMS @F25@
 1 FAMC @F3@
 0 @I34@ INDI
 1 NAME Jeffery /Hunter/
@@ -7434,21 +7464,21 @@ pSBXTX TK74U	e1
 2 SURN Hunter
 2 _MARNM Hunter
 1 SEX M
-1 FAMS @F24@
+1 FAMS @F25@
 0 @I35@ INDI
 1 NAME Emma /Hunter/
 2 GIVN Emma
 2 SURN Hunter
 2 _MARNM Hunter
 1 SEX F
-1 FAMC @F24@
+1 FAMC @F25@
 0 @I36@ INDI
 1 NAME Haille /Hunter/
 2 GIVN Haille
 2 SURN Hunter
 2 _MARNM Hunter
 1 SEX F
-1 FAMC @F24@
+1 FAMC @F25@
 0 @I37@ INDI
 1 NAME William /Hunter/
 2 GIVN William
@@ -7456,7 +7486,7 @@ pSBXTX TK74U	e1
 2 SURN Hunter
 2 _MARNM Hunter
 1 SEX M
-1 FAMC @F24@
+1 FAMC @F25@
 0 @I38@ INDI
 1 NAME Gwendolyn /Klenke/
 2 GIVN Gwendolyn
@@ -7478,7 +7508,7 @@ pSBXTX TK74U	e1
 2 SURN Klenke
 2 _MARNM Cole
 1 SEX F
-1 FAMS @F25@
+1 FAMS @F26@
 1 FAMC @F2@
 0 @I41@ INDI
 1 NAME Jason /Cole/
@@ -7486,14 +7516,14 @@ pSBXTX TK74U	e1
 2 SURN Cole
 2 _MARNM Cole
 1 SEX M
-1 FAMS @F25@
+1 FAMS @F26@
 0 @I42@ INDI
 1 NAME Samuel /Klenke/
 2 GIVN Samuel
 2 SURN Klenke
 2 _MARNM Klenke
 1 SEX M
-1 FAMS @F26@
+1 FAMS @F27@
 1 FAMC @F2@
 2 PEDI adopted
 0 @I43@ INDI
@@ -7502,7 +7532,7 @@ pSBXTX TK74U	e1
 2 SURN Klenke
 2 _MARNM Klenke
 1 SEX F
-1 FAMS @F26@
+1 FAMS @F27@
 0 @I44@ INDI
 1 NAME Sarah /Klenke/
 2 GIVN Sarah
@@ -7518,152 +7548,152 @@ pSBXTX TK74U	e1
 2 SURN Klenke
 2 _MARNM Klenke
 1 SEX M
-1 FAMC @F26@
+1 FAMC @F27@
 0 @I46@ INDI
 1 NAME Damian /Klenke/
 2 GIVN Damian
 2 SURN Klenke
 2 _MARNM Klenke
 1 SEX M
-1 FAMC @F26@
+1 FAMC @F27@
 0 @I47@ INDI
 1 NAME TeAmo /Klenke/
 2 GIVN TeAmo
 2 SURN Klenke
 2 _MARNM Klenke
 1 SEX M
-1 FAMC @F26@
+1 FAMC @F27@
 0 @I48@ INDI
 1 NAME XerraLezabeta /Klenke/
 2 GIVN XerraLezabeta
 2 SURN Klenke
 2 _MARNM Klenke
 1 SEX F
-1 FAMC @F26@
+1 FAMC @F27@
 0 @I49@ INDI
 1 NAME Thaddeus /Cole/
 2 GIVN Thaddeus
 2 SURN Cole
 2 _MARNM Cole
 1 SEX M
-1 FAMC @F25@
+1 FAMC @F26@
 0 @I50@ INDI
 1 NAME Chuck /Kuehn/
 2 GIVN Chuck
 2 SURN Kuehn
 2 _MARNM Kuehn
 1 SEX M
-1 FAMS @F11@
+1 FAMS @F12@
 0 @I51@ INDI
 1 NAME Courtney /Kuehn/
 2 GIVN Courtney
 2 SURN Kuehn
 2 _MARNM Broadfoot
 1 SEX F
-1 FAMS @F27@
-1 FAMC @F11@
+1 FAMS @F28@
+1 FAMC @F12@
 0 @I52@ INDI
 1 NAME Eric /Broadfoot/
 2 GIVN Eric
 2 SURN Broadfoot
 2 _MARNM Broadfoot
 1 SEX M
-1 FAMS @F27@
+1 FAMS @F28@
 0 @I53@ INDI
 1 NAME Conner /Kuehn/
 2 GIVN Conner
 2 SURN Kuehn
 2 _MARNM Kuehn
 1 SEX M
-1 FAMS @F28@
-1 FAMC @F11@
+1 FAMS @F29@
+1 FAMC @F12@
 0 @I54@ INDI
 1 NAME Annie /Barta/
 2 GIVN Annie
 2 SURN Barta
 2 _MARNM Barta
 1 SEX F
-1 FAMS @F28@
+1 FAMS @F29@
 0 @I55@ INDI
 1 NAME Chandler /Kuehn/
 2 GIVN Chandler
 2 SURN Kuehn
 2 _MARNM Kuehn
 1 SEX M
-1 FAMC @F11@
+1 FAMC @F12@
 0 @I56@ INDI
 1 NAME Charlotte /Broadfoot/
 2 GIVN Charlotte
 2 SURN Broadfoot
 2 _MARNM Broadfoot
 1 SEX F
-1 FAMC @F27@
+1 FAMC @F28@
 0 @I57@ INDI
 1 NAME Jack /Broadfoot/
 2 GIVN Jack
 2 SURN Broadfoot
 2 _MARNM Broadfoot
 1 SEX M
-1 FAMC @F27@
+1 FAMC @F28@
 0 @I58@ INDI
 1 NAME Paul /Klenke/
 2 GIVN Paul
 2 SURN Klenke
 2 _MARNM Klenke
 1 SEX M
-1 FAMC @F8@
+1 FAMC @F9@
 0 @I59@ INDI
 1 NAME Jeni /Klenke/
 2 GIVN Jeni
 2 SURN Klenke
 2 _MARNM Dansand
 1 SEX F
-1 FAMS @F29@
-1 FAMC @F8@
+1 FAMS @F30@
+1 FAMC @F9@
 0 @I60@ INDI
 1 NAME Jay /Dansand/
 2 GIVN Jay
 2 SURN Dansand
 2 _MARNM Dansand
 1 SEX M
-1 FAMS @F29@
+1 FAMS @F30@
 0 @I61@ INDI
 1 NAME Natalie /Dansand/
 2 GIVN Natalie
 2 SURN Dansand
 2 _MARNM Dansand
 1 SEX F
-1 FAMC @F29@
+1 FAMC @F30@
 0 @I62@ INDI
 1 NAME Nathan /Dansand/
 2 GIVN Nathan
 2 SURN Dansand
 2 _MARNM Dansand
 1 SEX M
-1 FAMC @F29@
+1 FAMC @F30@
 0 @I63@ INDI
 1 NAME Beth /Klenke/
 2 GIVN Beth
 2 SURN Klenke
 2 _MARNM Roddan
 1 SEX F
-1 FAMS @F30@
-1 FAMC @F12@
+1 FAMS @F31@
+1 FAMC @F13@
 0 @I64@ INDI
 1 NAME Dan /Roddan/
 2 GIVN Dan
 2 SURN Roddan
 2 _MARNM Roddan
 1 SEX M
-1 FAMS @F30@
+1 FAMS @F31@
 0 @I65@ INDI
 1 NAME Lisa /Klenke/
 2 GIVN Lisa
 2 SURN Klenke
 2 _MARNM Metcalf
 1 SEX F
-1 FAMS @F31@
-1 FAMC @F12@
+1 FAMS @F32@
+1 FAMC @F13@
 0 @I66@ INDI
 1 NAME Robert /Metcalf/
 2 GIVN Robert
@@ -7671,136 +7701,136 @@ pSBXTX TK74U	e1
 2 SURN Metcalf
 2 _MARNM Metcalf
 1 SEX M
-1 FAMS @F31@
+1 FAMS @F32@
 0 @I67@ INDI
 1 NAME Zany /Adkins/
 2 GIVN Zany
 2 SURN Adkins
 2 _MARNM Adkins
 1 SEX M
-1 FAMC @F16@
+1 FAMC @F17@
 0 @I68@ INDI
 1 NAME Bailey /Adkins/
 2 GIVN Bailey
 2 SURN Adkins
 2 _MARNM Adkins
 1 SEX F
-1 FAMC @F16@
+1 FAMC @F17@
 0 @I69@ INDI
 1 NAME Ford /Klenke/
 2 GIVN Ford
 2 SURN Klenke
 2 _MARNM Klenke
 1 SEX M
-1 FAMC @F22@
+1 FAMC @F23@
 0 @I70@ INDI
 1 NAME Arayna /Klenke/
 2 GIVN Arayna
 2 SURN Klenke
 2 _MARNM Klenke
 1 SEX F
-1 FAMC @F22@
+1 FAMC @F23@
 0 @I71@ INDI
 1 NAME Emma /Klenke/
 2 GIVN Emma
 2 SURN Klenke
 2 _MARNM Klenke
 1 SEX F
-1 FAMC @F20@
+1 FAMC @F21@
 0 @I72@ INDI
 1 NAME Jake
 2 GIVN Jake
 1 SEX M
-1 FAMC @F32@
+1 FAMC @F33@
 0 @I73@ INDI
 1 NAME Lauren
 2 GIVN Lauren
 1 SEX F
-1 FAMC @F32@
+1 FAMC @F33@
 0 @I74@ INDI
 1 NAME Owen /Roddan/
 2 GIVN Owen
 2 SURN Roddan
 2 _MARNM Roddan
 1 SEX M
-1 FAMC @F30@
+1 FAMC @F31@
 0 @I75@ INDI
 1 NAME Addison /Roddan/
 2 GIVN Addison
 2 SURN Roddan
 2 _MARNM Roddan
 1 SEX F
-1 FAMC @F30@
+1 FAMC @F31@
 0 @I76@ INDI
 1 NAME Anna /Metcalf/
 2 GIVN Anna
 2 SURN Metcalf
 2 _MARNM Metcalf
 1 SEX F
-1 FAMC @F31@
+1 FAMC @F32@
 0 @I77@ INDI
 1 NAME Lauren /Metcalf/
 2 GIVN Lauren
 2 SURN Metcalf
 2 _MARNM Metcalf
 1 SEX F
-1 FAMC @F31@
+1 FAMC @F32@
 0 @I78@ INDI
 1 NAME Adam /Klenke/
 2 GIVN Adam
 2 SURN Klenke
 2 _MARNM Klenke
 1 SEX M
-1 FAMC @F18@
+1 FAMC @F19@
 0 @I79@ INDI
 1 NAME Jaelyn /Klenke/
 2 GIVN Jaelyn
 2 SURN Klenke
 2 _MARNM Klenke
 1 SEX F
-1 FAMC @F18@
+1 FAMC @F19@
 0 @I80@ INDI
 1 NAME Josh /Klenke/
 2 GIVN Josh
 2 SURN Klenke
 2 _MARNM Klenke
 1 SEX M
-1 FAMC @F18@
+1 FAMC @F19@
 0 @I81@ INDI
 1 NAME Alissyn /Klenke/
 2 GIVN Alissyn
 2 SURN Klenke
 2 _MARNM Klenke
 1 SEX F
-1 FAMC @F18@
+1 FAMC @F19@
 0 @I82@ INDI
 1 NAME Andrew /Klenke/
 2 GIVN Andrew
 2 SURN Klenke
 2 _MARNM Klenke
 1 SEX M
-1 FAMC @F18@
+1 FAMC @F19@
 0 @I83@ INDI
 1 NAME Kristen /Klenke/
 2 GIVN Kristen
 2 SURN Klenke
 2 _MARNM Klenke
 1 SEX F
-1 FAMC @F21@
+1 FAMC @F22@
 0 @I84@ INDI
 1 NAME Grayson /Klenke/
 2 GIVN Grayson
 2 SURN Klenke
 2 _MARNM Klenke
 1 SEX M
-1 FAMC @F20@
+1 FAMC @F21@
 0 @I85@ INDI
 1 NAME Johnny /Klenke/
 2 GIVN Johnny
 2 SURN Klenke
 2 _MARNM Klenke
 1 SEX M
-1 FAMC @F21@
+1 FAMC @F22@
 2 PEDI birth
 0 @I86@ INDI
 1 NAME Joe /Smith/
@@ -7828,12 +7858,234 @@ pSBXTX TK74U	e1
 1 NAME Nicole
 2 GIVN Nicole
 1 SEX F
-1 FAMS @F21@
+1 FAMS @F22@
 0 @I90@ INDI
 1 NAME Kathleen
 2 GIVN Kathleen
 1 SEX F
-1 FAMS @F15@
+1 FAMS @F16@
+0 @I91@ INDI
+1 NAME Beatrice /Neuville/
+2 GIVN Beatrice
+2 SURN Neuville
+2 _MARNM Klenke
+1 SEX F
+1 DEAT Y
+1 FAMS @F8@
+0 @I92@ INDI
+1 NAME Oscar /Klenke/
+2 GIVN Oscar
+2 SURN Klenke
+2 _MARNM Klenke
+1 SEX M
+1 DEAT Y
+1 FAMS @F8@
+1 FAMC @F34@
+0 @I93@ INDI
+1 NAME Lillian /Klenke/
+2 GIVN Lillian
+2 SURN Klenke
+2 _MARNM Zettle
+1 SEX F
+1 DEAT Y
+1 FAMC @F8@
+0 @I94@ INDI
+1 NAME Mildred Marie /Klenke/
+2 GIVN Mildred Marie
+2 NICK Mickey
+2 SURN Klenke
+2 _MARNM Knaapen
+1 SEX F
+1 DEAT Y
+1 FAMS @F35@
+1 FAMC @F8@
+0 @I95@ INDI
+1 NAME Louis /Klenke/
+2 GIVN Louis
+2 SURN Klenke
+2 _MARNM Klenke
+1 SEX M
+1 DEAT Y
+1 FAMS @F34@
+1 FAMC @F36@
+0 @I96@ INDI
+1 NAME Minnie /Klenke/
+2 GIVN Minnie
+2 SURN Klenke
+2 _MARNM Klenke
+1 SEX F
+1 DEAT Y
+1 FAMS @F34@
+0 @I97@ INDI
+1 NAME
+1 SEX M
+1 DEAT Y
+1 FAMS @F36@
+0 @I98@ INDI
+1 NAME
+1 SEX F
+1 DEAT Y
+1 FAMS @F36@
+0 @I99@ INDI
+1 NAME George /Klenke/
+2 GIVN George
+2 SURN Klenke
+2 _MARNM Klenke
+1 SEX M
+1 DEAT Y
+1 FAMC @F36@
+0 @I100@ INDI
+1 NAME Elsie /Klenke/
+2 GIVN Elsie
+2 SURN Klenke
+2 _MARNM Clausen
+1 SEX F
+1 DEAT Y
+1 FAMC @F36@
+0 @I101@ INDI
+1 NAME Lottie /Klenke/
+2 GIVN Lottie
+2 SURN Klenke
+2 _MARNM Grayck
+1 DEAT Y
+1 FAMC @F36@
+0 @I102@ INDI
+1 NAME Gust /Klenke/
+2 GIVN Gust
+2 SURN Klenke
+2 _MARNM Klenke
+1 SEX M
+1 DEAT Y
+1 FAMS @F37@
+1 FAMC @F34@
+0 @I103@ INDI
+1 NAME Magdelene /Klenke/
+2 GIVN Magdelene
+2 SURN Klenke
+2 _MARNM Klenke
+1 SEX F
+1 DEAT Y
+1 FAMS @F37@
+0 @I104@ INDI
+1 NAME Bill /Knaapen/
+2 GIVN Bill
+2 SURN Knaapen
+2 _MARNM Knaapen
+1 SEX M
+1 DEAT Y
+1 FAMS @F35@
+0 @I105@ INDI
+1 NAME Jane /Knaapen/
+2 GIVN Jane
+2 SURN Knaapen
+2 _MARNM Cole
+1 SEX F
+1 FAMS @F38@
+1 FAMC @F35@
+0 @I106@ INDI
+1 NAME Lynn /Jacklevich/
+2 GIVN Lynn
+2 SURN Jacklevich
+2 _MARNM Knaapen
+1 SEX F
+1 FAMS @F39@
+1 FAMC @F35@
+0 @I107@ INDI
+1 NAME Bea /Knaapen/
+2 GIVN Bea
+2 SURN Knaapen
+2 _MARNM Knaapen
+1 SEX F
+1 FAMC @F35@
+0 @I108@ INDI
+1 NAME Julie /Knaapen/
+2 GIVN Julie
+2 SURN Knaapen
+2 _MARNM Rothenfluh
+1 SEX F
+1 FAMS @F40@
+1 FAMC @F35@
+0 @I109@ INDI
+1 NAME Willa /Knaapen/
+2 GIVN Willa
+2 SURN Knaapen
+2 _MARNM Knaapen
+1 SEX F
+1 FAMC @F35@
+0 @I110@ INDI
+1 NAME Laura /Knaapen/
+2 GIVN Laura
+2 SURN Knaapen
+2 _MARNM Knaapen
+1 SEX F
+1 FAMC @F35@
+0 @I111@ INDI
+1 NAME Joe /Knaapen/
+2 GIVN Joe
+2 SURN Knaapen
+2 _MARNM Knaapen
+1 SEX M
+1 FAMS @F41@
+1 FAMC @F35@
+0 @I112@ INDI
+1 NAME Tony /Knaapen/
+2 GIVN Tony
+2 SURN Knaapen
+2 _MARNM Knaapen
+1 SEX M
+1 FAMS @F42@
+1 FAMC @F35@
+0 @I113@ INDI
+1 NAME David /Knaapen/
+2 GIVN David
+2 SURN Knaapen
+2 _MARNM Knaapen
+1 SEX M
+1 FAMS @F43@
+1 FAMC @F35@
+0 @I114@ INDI
+1 NAME Dick /Cole/
+2 GIVN Dick
+2 SURN Cole
+2 _MARNM Cole
+1 SEX M
+1 FAMS @F38@
+0 @I115@ INDI
+1 NAME Bob /Knaapen/
+2 GIVN Bob
+2 SURN Knaapen
+2 _MARNM Knaapen
+1 SEX M
+1 DEAT Y
+1 FAMS @F39@
+0 @I116@ INDI
+1 NAME Russ /Rothenfluh/
+2 GIVN Russ
+2 SURN Rothenfluh
+2 _MARNM Rothenfluh
+1 SEX M
+1 FAMS @F40@
+0 @I117@ INDI
+1 NAME Laura /Knaapen/
+2 GIVN Laura
+2 SURN Knaapen
+2 _MARNM Knaapen
+1 SEX F
+1 FAMS @F41@
+0 @I118@ INDI
+1 NAME Lori /Knaapen/
+2 GIVN Lori
+2 SURN Knaapen
+2 _MARNM Knaapen
+1 SEX F
+1 FAMS @F42@
+0 @I119@ INDI
+1 NAME Terri /Knaapen/
+2 GIVN Terri
+2 SURN Knaapen
+2 _MARNM Knaapen
+1 SEX F
+1 FAMS @F43@
 0 @F1@ FAM
 1 HUSB @I1@
 1 WIFE @I2@
@@ -7880,6 +8132,8 @@ pSBXTX TK74U	e1
 1 CHIL @I18@
 1 CHIL @I20@
 1 MARR
+2 DATE 4 FEB 1950
+2 PLAC American Martyrs Church in Kingsford, MI
 1 _CURRENT Y
 1 _PRIMARY Y
 0 @F6@ FAM
@@ -7897,6 +8151,14 @@ pSBXTX TK74U	e1
 1 _CURRENT Y
 1 _PRIMARY Y
 0 @F8@ FAM
+1 HUSB @I92@
+1 WIFE @I91@
+1 CHIL @I6@
+1 CHIL @I93@
+1 CHIL @I94@
+1 _CURRENT Y
+1 _PRIMARY Y
+0 @F9@ FAM
 1 HUSB @I8@
 1 WIFE @I9@
 1 CHIL @I58@
@@ -7904,13 +8166,13 @@ pSBXTX TK74U	e1
 1 MARR
 1 _CURRENT Y
 1 _PRIMARY Y
-0 @F9@ FAM
+0 @F10@ FAM
 1 HUSB @I10@
 1 WIFE @I11@
 1 MARR
 1 _CURRENT Y
 1 _PRIMARY Y
-0 @F10@ FAM
+0 @F11@ FAM
 1 HUSB @I10@
 1 WIFE @I22@
 1 CHIL @I23@
@@ -7920,7 +8182,7 @@ pSBXTX TK74U	e1
 1 DIV
 1 _CURRENT N
 1 _PRIMARY N
-0 @F11@ FAM
+0 @F12@ FAM
 1 HUSB @I50@
 1 WIFE @I11@
 1 CHIL @I51@
@@ -7928,7 +8190,7 @@ pSBXTX TK74U	e1
 1 CHIL @I55@
 1 _CURRENT N
 1 _PRIMARY N
-0 @F12@ FAM
+0 @F13@ FAM
 1 HUSB @I12@
 1 WIFE @I13@
 1 CHIL @I63@
@@ -7936,22 +8198,22 @@ pSBXTX TK74U	e1
 1 MARR
 1 _CURRENT Y
 1 _PRIMARY Y
-0 @F13@ FAM
+0 @F14@ FAM
 1 HUSB @I15@
 1 WIFE @I14@
 1 _CURRENT Y
 1 _PRIMARY Y
-0 @F14@ FAM
+0 @F15@ FAM
 1 HUSB @I16@
 1 WIFE @I17@
 1 _CURRENT Y
 1 _PRIMARY Y
-0 @F15@ FAM
+0 @F16@ FAM
 1 HUSB @I16@
 1 WIFE @I90@
 1 _CURRENT N
 1 _PRIMARY N
-0 @F16@ FAM
+0 @F17@ FAM
 1 HUSB @I19@
 1 WIFE @I18@
 1 CHIL @I67@
@@ -7959,13 +8221,13 @@ pSBXTX TK74U	e1
 1 MARR
 1 _CURRENT Y
 1 _PRIMARY Y
-0 @F17@ FAM
+0 @F18@ FAM
 1 HUSB @I20@
 1 WIFE @I21@
 1 MARR
 1 _CURRENT Y
 1 _PRIMARY Y
-0 @F18@ FAM
+0 @F19@ FAM
 1 HUSB @I23@
 1 WIFE @I24@
 1 CHIL @I78@
@@ -7976,12 +8238,12 @@ pSBXTX TK74U	e1
 1 MARR
 1 _CURRENT Y
 1 _PRIMARY Y
-0 @F19@ FAM
+0 @F20@ FAM
 1 HUSB @I25@
 1 WIFE @I26@
 1 _CURRENT Y
 1 _PRIMARY Y
-0 @F20@ FAM
+0 @F21@ FAM
 1 HUSB @I25@
 1 WIFE @I29@
 1 CHIL @I71@
@@ -7991,14 +8253,14 @@ pSBXTX TK74U	e1
 2 TYPE Ending
 1 _CURRENT N
 1 _PRIMARY N
-0 @F21@ FAM
+0 @F22@ FAM
 1 HUSB @I25@
 1 WIFE @I89@
 1 CHIL @I83@
 1 CHIL @I85@
 1 _CURRENT N
 1 _PRIMARY N
-0 @F22@ FAM
+0 @F23@ FAM
 1 HUSB @I27@
 1 WIFE @I28@
 1 CHIL @I69@
@@ -8006,12 +8268,12 @@ pSBXTX TK74U	e1
 1 MARR
 1 _CURRENT Y
 1 _PRIMARY Y
-0 @F23@ FAM
+0 @F24@ FAM
 1 HUSB @I32@
 1 WIFE @I31@
 1 _CURRENT Y
 1 _PRIMARY Y
-0 @F24@ FAM
+0 @F25@ FAM
 1 HUSB @I34@
 1 WIFE @I33@
 1 CHIL @I35@
@@ -8019,13 +8281,13 @@ pSBXTX TK74U	e1
 1 CHIL @I37@
 1 _CURRENT Y
 1 _PRIMARY Y
-0 @F25@ FAM
+0 @F26@ FAM
 1 HUSB @I41@
 1 WIFE @I40@
 1 CHIL @I49@
 1 _CURRENT Y
 1 _PRIMARY Y
-0 @F26@ FAM
+0 @F27@ FAM
 1 HUSB @I42@
 1 WIFE @I43@
 1 CHIL @I45@
@@ -8034,7 +8296,7 @@ pSBXTX TK74U	e1
 1 CHIL @I48@
 1 _CURRENT Y
 1 _PRIMARY Y
-0 @F27@ FAM
+0 @F28@ FAM
 1 HUSB @I52@
 1 WIFE @I51@
 1 CHIL @I56@
@@ -8042,12 +8304,12 @@ pSBXTX TK74U	e1
 1 MARR
 1 _CURRENT Y
 1 _PRIMARY Y
-0 @F28@ FAM
+0 @F29@ FAM
 1 HUSB @I53@
 1 WIFE @I54@
 1 _CURRENT Y
 1 _PRIMARY Y
-0 @F29@ FAM
+0 @F30@ FAM
 1 HUSB @I60@
 1 WIFE @I59@
 1 CHIL @I61@
@@ -8055,30 +8317,97 @@ pSBXTX TK74U	e1
 1 MARR
 1 _CURRENT Y
 1 _PRIMARY Y
-0 @F30@ FAM
+0 @F31@ FAM
 1 HUSB @I64@
 1 WIFE @I63@
 1 CHIL @I74@
 1 CHIL @I75@
 1 _CURRENT Y
 1 _PRIMARY Y
-0 @F31@ FAM
+0 @F32@ FAM
 1 HUSB @I66@
 1 WIFE @I65@
 1 CHIL @I76@
 1 CHIL @I77@
 1 _CURRENT Y
 1 _PRIMARY Y
-0 @F32@ FAM
+0 @F33@ FAM
 1 WIFE @I21@
 1 CHIL @I72@
 1 CHIL @I73@
+0 @F34@ FAM
+1 HUSB @I95@
+1 WIFE @I96@
+1 CHIL @I92@
+1 CHIL @I102@
+1 _CURRENT Y
+1 _PRIMARY Y
+0 @F35@ FAM
+1 HUSB @I104@
+1 WIFE @I94@
+1 CHIL @I105@
+1 CHIL @I106@
+1 CHIL @I107@
+1 CHIL @I108@
+1 CHIL @I109@
+1 CHIL @I110@
+1 CHIL @I111@
+1 CHIL @I112@
+1 CHIL @I113@
+1 _CURRENT Y
+1 _PRIMARY Y
+0 @F36@ FAM
+1 HUSB @I97@
+1 WIFE @I98@
+1 CHIL @I95@
+1 CHIL @I99@
+1 CHIL @I100@
+1 CHIL @I101@
+1 _CURRENT Y
+1 _PRIMARY Y
+0 @F37@ FAM
+1 HUSB @I102@
+1 WIFE @I103@
+1 _CURRENT Y
+1 _PRIMARY Y
+0 @F38@ FAM
+1 HUSB @I114@
+1 WIFE @I105@
+1 _CURRENT Y
+1 _PRIMARY Y
+0 @F39@ FAM
+1 HUSB @I115@
+1 WIFE @I106@
+1 _CURRENT Y
+1 _PRIMARY Y
+0 @F40@ FAM
+1 HUSB @I116@
+1 WIFE @I108@
+1 _CURRENT Y
+1 _PRIMARY Y
+0 @F41@ FAM
+1 HUSB @I111@
+1 WIFE @I117@
+1 _CURRENT Y
+1 _PRIMARY Y
+0 @F42@ FAM
+1 HUSB @I112@
+1 WIFE @I118@
+1 _CURRENT Y
+1 _PRIMARY Y
+0 @F43@ FAM
+1 HUSB @I113@
+1 WIFE @I119@
+1 _CURRENT Y
+1 _PRIMARY Y
 0 TRLR
 
 ">
 <INPUT TYPE="hidden" ID="csv" VALUE="
 
 ID,Full name,Given names,Nickname,Title,Suffix,Surname now,Surname at birth,Gender,Deceased,Mother ID,Mother name,Father ID,Father name,Parents type,Second mother ID,Second mother name,Second father ID,Second father name,Second parents type,Third mother ID,Third mother name,Third father ID,Third father name,Third parents type,Birth date type,Birth year,Birth month,Birth day,Birth range end,Death date type,Death year,Death month,Death day,Death range end,Partner ID,Partner name,Partner type,Partnership date type,Partnership year,Partnership month,Partnership day,Partnership range end,Ex-partner IDs,Extra partner IDs,Email,Website,Blog,Photo site,Home tel,Work tel,Mobile,Skype,Address,Other contact,Birth place,Death place,Cause of death,Burial place,Burial date type,Burial year,Burial month,Burial day,Burial range end,Profession,Company,Interests,Activities,Bio notes,
+H9TIO,,,,,,,,Male,Y,,,,,,,,,,,,,,,,,,,,,,,,,,L7C49,,Partner,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+L7C49,,,,,,,,Female,Y,,,,,,,,,,,,,,,,,,,,,,,,,,H9TIO,,Partner,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 N2Z68,Carolyn Tapa,Carolyn,,,,,Tapa,Female,Y,,,,,,,,,,,,,,,,,,,,,,,,,,BRILS,&quot;Joseph &quot;&quot;Joe&quot;&quot; Klenke&quot;,Partner,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 XMSMU,Guillermo,Guillermo,,,,,,Male,,,,,,,,,,,,,,,,,,,,,,,,,,,W3Q5N,&quot;Thomas &quot;&quot;Tom&quot;&quot; Klenke&quot;,Partner,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 UDD8N,Jake,Jake,,,,,,Male,,NPZLN,Rebecca Klenke,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -8096,6 +8425,9 @@ V1P30,Courtney Broadfoot,Courtney,,,,Broadfoot,Kuehn,Female,,HKDJ8,Charlotte Kle
 AT123,Eric Broadfoot,Eric,,,,Broadfoot,Broadfoot,Male,,,,,,,,,,,,,,,,,,,,,,,,,,,V1P30,Courtney Broadfoot,Wife,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 YNP5J,Jack Broadfoot,Jack,,,,Broadfoot,Broadfoot,Male,,V1P30,Courtney Broadfoot,AT123,Eric Broadfoot,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 B5NGH,Robin Burdick,Robin,,,,Burdick,Greenspan,Female,,,,,,,,,,,,,,,,,,,,,,,,,,,RSWK5,&quot;William &quot;&quot;Bill&quot;&quot; Klenke&quot;,Husband,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+GW0QW,Elsie Clausen,Elsie,,,,Clausen,Klenke,Female,Y,L7C49,,H9TIO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SJ0LM,Dick Cole,Dick,,,,Cole,,Male,,,,,,,,,,,,,,,,,,,,,,,,,,,LCU5Q,Jane Cole,Partner,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+LCU5Q,Jane Cole,Jane,,,,Cole,Knaapen,Female,,XZR9S,&quot;Mildred Marie &quot;&quot;Mickey&quot;&quot; Knaapen&quot;,VSCX1,Bill Knaapen,,,,,,,,,,,,,,,,,,,,,,SJ0LM,Dick Cole,Partner,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 WD1J4,Jason Cole,Jason,,,,Cole,Cole,Male,,,,,,,,,,,,,,,,,,,,,,,,,,,YYF0A,Michelle Cole,Partner,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 YYF0A,Michelle Cole,Michelle,,,,Cole,Klenke,Female,,DMAUV,&quot;Deborah &quot;&quot;Debby&quot;&quot; Klenke&quot;,RSWK5,&quot;William &quot;&quot;Bill&quot;&quot; Klenke&quot;,,,,,,,,,,,,,,,,,,,,,,WD1J4,Jason Cole,Partner,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 M0EVO,Thaddeus Cole,Thaddeus,,,,Cole,Cole,Male,,YYF0A,Michelle Cole,WD1J4,Jason Cole,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -8103,6 +8435,7 @@ PW96K,Jay Dansand,Jay,,,,Dansand,Dansand,Male,,,,,,,,,,,,,,,,,,,,,,,,,,,TJPNS,Je
 TJPNS,Jeni Dansand,Jeni,,,,Dansand,Klenke,Female,,BD4JJ,Gail Klenke,RFFMK,&quot;James &quot;&quot;Jim&quot;&quot; Klenke&quot;,,,,,,,,,,,,,,,,,,,,,,PW96K,Jay Dansand,Husband,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Q74O0,Natalie Dansand,Natalie,,,,Dansand,Dansand,Female,,TJPNS,Jeni Dansand,PW96K,Jay Dansand,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 RAAI0,Nathan Dansand,Nathan,,,,Dansand,Dansand,Male,,TJPNS,Jeni Dansand,PW96K,Jay Dansand,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+RXCBR,Lottie Grayck,Lottie,,,,Grayck,Klenke,,Y,L7C49,,H9TIO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 B6WY9,Emma Hunter,Emma,,,,Hunter,Hunter,Female,,MDS7I,Michelle Hunter,DB2M1,Jeffery Hunter,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 N74YD,Haille Hunter,Haille,,,,Hunter,Hunter,Female,,MDS7I,Michelle Hunter,DB2M1,Jeffery Hunter,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 DB2M1,Jeffery Hunter,Jeffery,,,,Hunter,Hunter,Male,,,,,,,,,,,,,,,,,,,,,,,,,,,MDS7I,Michelle Hunter,Partner,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -8117,21 +8450,24 @@ KFLH8,Alissyn Klenke,Alissyn,,,,Klenke,Klenke,Female,,R2QFF,Jamie Klenke,DNR9W,&
 ZHUZL,Andrew Klenke,Andrew,,,,Klenke,Klenke,Male,,R2QFF,Jamie Klenke,DNR9W,&quot;Anthony &quot;&quot;Tony&quot;&quot; Klenke&quot;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 NENO1,Anne Klenke,Anne,,,,Klenke,Klenke,Female,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TK74U,,,,,,,,,,,,,,,,,,,,,,,,,,
 DNR9W,&quot;Anthony &quot;&quot;Tony&quot;&quot; Klenke&quot;,Anthony,Tony,,,Klenke,Klenke,Male,,FE1Y9,Mary Ellen Marchant,EOHFQ,John Klenke,,,,,,,,,,,,,,,,,,,,,,R2QFF,Jamie Klenke,Wife,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-XRBXH,Arayna Klenke,Arayna,,,,Klenke,Klenke,Female,,A8HZJ,Arayna Klenke,XBYX0,Brian Klenke,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 A8HZJ,Arayna Klenke,Arayna,,,,Klenke,Klenke,Female,,,,,,,,,,,,,,,,,,,,,,,,,,,XBYX0,Brian Klenke,Husband,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+XRBXH,Arayna Klenke,Arayna,,,,Klenke,Klenke,Female,,A8HZJ,Arayna Klenke,XBYX0,Brian Klenke,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+GSRLB,Beatrice Klenke,Beatrice,,,,Klenke,Neuville,Female,Y,,,,,,,,,,,,,,,,,,,,,,,,,,MPCD1,Oscar Klenke,Partner,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 TK74U,&quot;Benjamin &quot;&quot;Ben&quot;&quot; Klenke&quot;,Benjamin,Ben,,,Klenke,Klenke,Male,,FE1Y9,Mary Ellen Marchant,EOHFQ,John Klenke,,,,,,,,,,,,,,,,,,,,,,NQ1M7,Cathy Lynn,Partner,,,,,,NENO1 SBXTX,,,,,,,,,,,,,,,,,,,,,,,,,,
 XBYX0,Brian Klenke,Brian,,,,Klenke,Klenke,Male,,FE1Y9,Mary Ellen Marchant,EOHFQ,John Klenke,,,,,,,,,,,,,,,,,,,,,,A8HZJ,Arayna Klenke,Wife,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-OFU1E,Carol Klenke,Carol,,,,Klenke,Fillion,Female,,,,,,,,,,,,,,,,,,,,,,,,,,,START,&quot;Donald &quot;&quot;Don&quot;&quot; Klenke&quot;,Late husband,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+OFU1E,Carol Klenke,Carol,,,,Klenke,Fillion,Female,,,,,,,,,,,,,,,,,,,,,,,,,,,START,&quot;Donald &quot;&quot;Don&quot;&quot; Klenke&quot;,Late husband,Known,1950,2,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HKDJ8,Charlotte Klenke,Charlotte,,,,Klenke,Klenke,Female,,,,,,,,,,,,,,,,,,,,,,,,,,,EOHFQ,John Klenke,Late husband,,,,,,QT65O,,,,,,,,,,,,,,,,,,,,,,,,,,
 WA98U,Damian Klenke,Damian,,,,Klenke,Klenke,Male,,MJEXS,Alex Klenke,X27TQ,Samuel Klenke,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 UC18P,&quot;David &quot;&quot;Dave&quot;&quot; Klenke&quot;,David,Dave,,,Klenke,Klenke,Male,,OFU1E,Carol Klenke,START,&quot;Donald &quot;&quot;Don&quot;&quot; Klenke&quot;,,,,,,,,,,,,,,,,,,,,,,NPZLN,Rebecca Klenke,Wife,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 DMAUV,&quot;Deborah &quot;&quot;Debby&quot;&quot; Klenke&quot;,Deborah,Debby,,,Klenke,Proctor,Female,,HEO54,Gwendolyn Proctor,V8LGG,Richard Proctor,Biological,,,,,,,,,,,,,,,,,,,,,,,,,,,,,RSWK5 CKRUG,,,,,,,,,,,,,,,,,,,,,,,,,,
 D0QNB,Diane Klenke,Diane,,,,Klenke,Klenke,Female,Y,,,,,,,,,,,,,,,,,,,,,,,,,,B39XE,&quot;Robert &quot;&quot;Bob&quot;&quot; Klenke&quot;,Widower,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-START,&quot;Donald &quot;&quot;Don&quot;&quot; Klenke&quot;,Donald,Don,,,Klenke,Klenke,Male,Y,,,,,,,,,,,,,,,,,,,,,,,,,,OFU1E,Carol Klenke,Widow,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+START,&quot;Donald &quot;&quot;Don&quot;&quot; Klenke&quot;,Donald,Don,,,Klenke,Klenke,Male,Y,MPCD1,Oscar Klenke,GSRLB,Beatrice Klenke,,,,,,,,,,,,,,,,,,,,,,OFU1E,Carol Klenke,Widow,Known,1950,2,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 N7TXG,Emma Klenke,Emma,,,,Klenke,Klenke,Female,,NENO1,Anne Klenke,TK74U,&quot;Benjamin &quot;&quot;Ben&quot;&quot; Klenke&quot;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 LTPH6,Ford Klenke,Ford,,,,Klenke,Klenke,Male,,A8HZJ,Arayna Klenke,XBYX0,Brian Klenke,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 BD4JJ,Gail Klenke,Gail,,,,Klenke,Proctor,Female,,HEO54,Gwendolyn Proctor,V8LGG,Richard Proctor,,,,,,,,,,,,,,,,,,,,,,RFFMK,&quot;James &quot;&quot;Jim&quot;&quot; Klenke&quot;,Husband,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+VB8KG,George Klenke,George,,,,Klenke,,Male,Y,L7C49,,H9TIO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 B7KD7,Grayson Klenke,Grayson,,,,Klenke,Klenke,Male,,NENO1,Anne Klenke,TK74U,&quot;Benjamin &quot;&quot;Ben&quot;&quot; Klenke&quot;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+KFT55,Gust Klenke,Gust,,,,Klenke,,Male,Y,UAA2L,Minnie Klenke,P6Z42,Louis Klenke,,,,,,,,,,,,,,,,,,,,,,HF6G8,Magdelene Klenke,Partner,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 WZ7OX,&quot;Gwendolyn &quot;&quot;Gwen&quot;&quot; Klenke&quot;,Gwendolyn,Gwen,,,Klenke,Klenke,Female,,P5WC5,Susan Walters-Klenke,B79B4,Aaron Klenke,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Z6JSJ,Jaelyn Klenke,Jaelyn,,,,Klenke,Klenke,Female,,R2QFF,Jamie Klenke,DNR9W,&quot;Anthony &quot;&quot;Tony&quot;&quot; Klenke&quot;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 RFFMK,&quot;James &quot;&quot;Jim&quot;&quot; Klenke&quot;,James,Jim,,,Klenke,Klenke,Male,,OFU1E,Carol Klenke,START,&quot;Donald &quot;&quot;Don&quot;&quot; Klenke&quot;,,,,,,,,,,,,,,,,,,,,,,BD4JJ,Gail Klenke,Wife,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -8142,7 +8478,11 @@ BRILS,&quot;Joseph &quot;&quot;Joe&quot;&quot; Klenke&quot;,Joseph,Joe,,,Klenke,
 V6R5M,Josh Klenke,Josh,,,,Klenke,Klenke,Male,,R2QFF,Jamie Klenke,DNR9W,&quot;Anthony &quot;&quot;Tony&quot;&quot; Klenke&quot;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 E33WK,Kristen Klenke,Kristen,,,,Klenke,Klenke,Female,,SBXTX,Nicole,TK74U,&quot;Benjamin &quot;&quot;Ben&quot;&quot; Klenke&quot;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 YSI47,Liam Klenke,Liam,,,,Klenke,Klenke,Male,,MJEXS,Alex Klenke,X27TQ,Samuel Klenke,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+P6Z42,Louis Klenke,Louis,,,,Klenke,,Male,Y,L7C49,,H9TIO,,,,,,,,,,,,,,,,,,,,,,,UAA2L,Minnie Klenke,Partner,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HF6G8,Magdelene Klenke,Magdelene,,,,Klenke,,Female,Y,,,,,,,,,,,,,,,,,,,,,,,,,,KFT55,Gust Klenke,Partner,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ECCTD,Mart Klenke,Mart,,,,Klenke,Klenke,they/them,,P5WC5,Susan Walters-Klenke,B79B4,Aaron Klenke,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+UAA2L,Minnie Klenke,Minnie,,,,Klenke,,Female,Y,,,,,,,,,,,,,,,,,,,,,,,,,,P6Z42,Louis Klenke,Partner,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MPCD1,Oscar Klenke,Oscar,,,,Klenke,,Male,Y,UAA2L,Minnie Klenke,P6Z42,Louis Klenke,,,,,,,,,,,,,,,,,,,,,,GSRLB,Beatrice Klenke,Partner,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 WZAKS,Paul Klenke,Paul,,,,Klenke,Klenke,Male,,BD4JJ,Gail Klenke,RFFMK,&quot;James &quot;&quot;Jim&quot;&quot; Klenke&quot;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 NPZLN,Rebecca Klenke,Rebecca,,,,Klenke,Nusbaum,Female,,,,,,,,,,,,,,,,,,,,,,,,,,,UC18P,&quot;David &quot;&quot;Dave&quot;&quot; Klenke&quot;,Husband,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 B39XE,&quot;Robert &quot;&quot;Bob&quot;&quot; Klenke&quot;,Robert,Bob,,,Klenke,Klenke,Male,,OFU1E,Carol Klenke,START,&quot;Donald &quot;&quot;Don&quot;&quot; Klenke&quot;,,,,,,,,,,,,,,,,,,,,,,D0QNB,Diane Klenke,Late wife,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -8152,6 +8492,19 @@ C6IIW,TeAmo Klenke,TeAmo,,,,Klenke,Klenke,Male,,MJEXS,Alex Klenke,X27TQ,Samuel K
 W3Q5N,&quot;Thomas &quot;&quot;Tom&quot;&quot; Klenke&quot;,Thomas,Tom,,,Klenke,Klenke,Male,,OFU1E,Carol Klenke,START,&quot;Donald &quot;&quot;Don&quot;&quot; Klenke&quot;,,,,,,,,,,,,,,,,,,,,,,XMSMU,Guillermo,Partner,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 RSWK5,&quot;William &quot;&quot;Bill&quot;&quot; Klenke&quot;,William,Bill,,,Klenke,Klenke,Male,,OFU1E,Carol Klenke,START,&quot;Donald &quot;&quot;Don&quot;&quot; Klenke&quot;,,,,,,,,,,,,,,,,,,,,,,B5NGH,Robin Burdick,Wife,,,,,,DMAUV,,,,,,,,,,,,,,,,,,,,,,,,,,
 GFOGZ,XerraLezabeta Klenke,XerraLezabeta,,,,Klenke,Klenke,Female,,MJEXS,Alex Klenke,X27TQ,Samuel Klenke,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CXGAO,Bea Knaapen,Bea,,,,Knaapen,,Female,,XZR9S,&quot;Mildred Marie &quot;&quot;Mickey&quot;&quot; Knaapen&quot;,VSCX1,Bill Knaapen,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+VSCX1,Bill Knaapen,Bill,,,,Knaapen,,Male,Y,,,,,,,,,,,,,,,,,,,,,,,,,,XZR9S,&quot;Mildred Marie &quot;&quot;Mickey&quot;&quot; Knaapen&quot;,Partner,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+H9UE9,Bob Knaapen,Bob,,,,Knaapen,,Male,Y,,,,,,,,,,,,,,,,,,,,,,,,,,FES5F,Lynn Knaapen,Partner,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+O4Z64,David Knaapen,David,,,,Knaapen,Knaapen,Male,,XZR9S,&quot;Mildred Marie &quot;&quot;Mickey&quot;&quot; Knaapen&quot;,VSCX1,Bill Knaapen,,,,,,,,,,,,,,,,,,,,,,O52HW,Terri Knaapen,Partner,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+QDEYR,Joe Knaapen,Joe,,,,Knaapen,Knaapen,Male,,XZR9S,&quot;Mildred Marie &quot;&quot;Mickey&quot;&quot; Knaapen&quot;,VSCX1,Bill Knaapen,,,,,,,,,,,,,,,,,,,,,,T6RNS,Laura Knaapen,Partner,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+G078I,Laura Knaapen,Laura,,,,Knaapen,Knaapen,Female,,XZR9S,&quot;Mildred Marie &quot;&quot;Mickey&quot;&quot; Knaapen&quot;,VSCX1,Bill Knaapen,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+T6RNS,Laura Knaapen,Laura,,,,Knaapen,,Female,,,,,,,,,,,,,,,,,,,,,,,,,,,QDEYR,Joe Knaapen,Partner,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+YLUWH,Lori Knaapen,Lori,,,,Knaapen,,Female,,,,,,,,,,,,,,,,,,,,,,,,,,,CRBWY,Tony Knaapen,Partner,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+FES5F,Lynn Knaapen,Lynn,,,,Knaapen,Jacklevich,Female,,XZR9S,&quot;Mildred Marie &quot;&quot;Mickey&quot;&quot; Knaapen&quot;,VSCX1,Bill Knaapen,,,,,,,,,,,,,,,,,,,,,,H9UE9,Bob Knaapen,Late partner,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+XZR9S,&quot;Mildred Marie &quot;&quot;Mickey&quot;&quot; Knaapen&quot;,Mildred Marie,Mickey,,,Knaapen,Klenke,Female,Y,MPCD1,Oscar Klenke,GSRLB,Beatrice Klenke,,,,,,,,,,,,,,,,,,,,,,VSCX1,Bill Knaapen,Partner,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+O52HW,Terri Knaapen,Terri,,,,Knaapen,,Female,,,,,,,,,,,,,,,,,,,,,,,,,,,O4Z64,David Knaapen,Partner,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CRBWY,Tony Knaapen,Tony,,,,Knaapen,Knaapen,Male,,XZR9S,&quot;Mildred Marie &quot;&quot;Mickey&quot;&quot; Knaapen&quot;,VSCX1,Bill Knaapen,,,,,,,,,,,,,,,,,,,,,,YLUWH,Lori Knaapen,Partner,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SE3E8,Willa Knaapen,Willa,,,,Knaapen,Knaapen,Female,,XZR9S,&quot;Mildred Marie &quot;&quot;Mickey&quot;&quot; Knaapen&quot;,VSCX1,Bill Knaapen,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 GRLYX,Chandler Kuehn,Chandler,,,,Kuehn,Kuehn,Male,,HKDJ8,Charlotte Klenke,QT65O,Chuck Kuehn,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 QT65O,Chuck Kuehn,Chuck,,,,Kuehn,Kuehn,Male,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HKDJ8,,,,,,,,,,,,,,,,,,,,,,,,,,
 Z6WIF,Conner Kuehn,Conner,,,,Kuehn,Kuehn,Male,,HKDJ8,Charlotte Klenke,QT65O,Chuck Kuehn,,,,,,,,,,,,,,,,,,,,,,YVUIY,Annie Barta,Partner,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -8167,15 +8520,18 @@ H933X,Addison Roddan,Addison,,,,Roddan,Roddan,Female,,XGDMC,Beth Roddan,GLEJI,Da
 XGDMC,Beth Roddan,Beth,,,,Roddan,Klenke,Female,,D0QNB,Diane Klenke,B39XE,&quot;Robert &quot;&quot;Bob&quot;&quot; Klenke&quot;,,,,,,,,,,,,,,,,,,,,,,GLEJI,Dan Roddan,Partner,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 GLEJI,Dan Roddan,Dan,,,,Roddan,Roddan,Male,,,,,,,,,,,,,,,,,,,,,,,,,,,XGDMC,Beth Roddan,Partner,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 KIBP6,Owen Roddan,Owen,,,,Roddan,Roddan,Male,,XGDMC,Beth Roddan,GLEJI,Dan Roddan,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HPQKZ,Julie Rothenfluh,Julie,,,,Rothenfluh,Knaapen,Female,,XZR9S,&quot;Mildred Marie &quot;&quot;Mickey&quot;&quot; Knaapen&quot;,VSCX1,Bill Knaapen,,,,,,,,,,,,,,,,,,,,,,TT1CR,Russ Rothenfluh,Partner,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TT1CR,Russ Rothenfluh,Russ,,,,Rothenfluh,,Male,,,,,,,,,,,,,,,,,,,,,,,,,,,HPQKZ,Julie Rothenfluh,Partner,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 CKRUG,Joe Smith,Joe,,,,Smith,Smith,Male,Y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,DMAUV,,,,,,,,,,,,,,,,,,,,,,,,,,
 P5WC5,Susan Walters-Klenke,Susan,,,,Walters-Klenke,Walters,Female,,,,,,,,,,,,,,,,,,,,,,,,,,,B79B4,Aaron Klenke,Husband,,,,,,G4FGY,,,,,,,,,,,,,,,,,,,,,,,,,,
+BDDVR,Lillian Zettle,Lillian,,,,Zettle,Klenke,Female,Y,MPCD1,Oscar Klenke,GSRLB,Beatrice Klenke,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 
 ">
 <INPUT TYPE="hidden" ID="text" VALUE="
 
 Don and Carol's Tree
 
-Plain text downloaded by Aaron Klenke on 25 Jan 2024.
+Plain text downloaded by Aaron Klenke on 2 Feb 2024.
 
 This file should be viewed as Unicode (UTF-8) character encoding.
 
@@ -8296,6 +8652,27 @@ Husband:            William &quot;Bill&quot; Klenke
 
 ----------------------------------------------------------------------------
 
+Full name:          Elsie Clausen
+Surname at birth:   Klenke
+Gender:             Female (deceased)
+
+----------------------------------------------------------------------------
+
+Full name:          Dick Cole
+Gender:             Male
+Partner:            Jane Cole
+
+----------------------------------------------------------------------------
+
+Full name:          Jane Cole
+Surname at birth:   Knaapen
+Gender:             Female
+Mother:             Mildred Marie &quot;Mickey&quot; Knaapen
+Father:             Bill Knaapen
+Partner:            Dick Cole
+
+----------------------------------------------------------------------------
+
 Full name:          Jason Cole
 Gender:             Male
 Partner:            Michelle Cole
@@ -8344,6 +8721,12 @@ Full name:          Nathan Dansand
 Gender:             Male
 Mother:             Jeni Dansand
 Father:             Jay Dansand
+
+----------------------------------------------------------------------------
+
+Full name:          Lottie Grayck
+Surname at birth:   Klenke
+Gender:             (Deceased)
 
 ----------------------------------------------------------------------------
 
@@ -8448,14 +8831,21 @@ Wife:               Jamie Klenke
 
 Full name:          Arayna Klenke
 Gender:             Female
-Mother:             Arayna Klenke
-Father:             Brian Klenke
+Husband:            Brian Klenke
 
 ----------------------------------------------------------------------------
 
 Full name:          Arayna Klenke
 Gender:             Female
-Husband:            Brian Klenke
+Mother:             Arayna Klenke
+Father:             Brian Klenke
+
+----------------------------------------------------------------------------
+
+Full name:          Beatrice Klenke
+Surname at birth:   Neuville
+Gender:             Female (deceased)
+Partner:            Oscar Klenke
 
 ----------------------------------------------------------------------------
 
@@ -8480,7 +8870,7 @@ Wife:               Arayna Klenke
 Full name:          Carol Klenke
 Surname at birth:   Fillion
 Gender:             Female
-Late husband:       Donald &quot;Don&quot; Klenke
+Late husband:       Donald &quot;Don&quot; Klenke (married 4 Feb 1950 in American Martyrs Church in Kingsford, MI)
 
 ----------------------------------------------------------------------------
 
@@ -8524,7 +8914,9 @@ Widower:            Robert &quot;Bob&quot; Klenke
 
 Full name:          Donald &quot;Don&quot; Klenke
 Gender:             Male (deceased)
-Widow:              Carol Klenke
+Mother:             Oscar Klenke
+Father:             Beatrice Klenke
+Widow:              Carol Klenke (married 4 Feb 1950 in American Martyrs Church in Kingsford, MI)
 
 ----------------------------------------------------------------------------
 
@@ -8551,10 +8943,23 @@ Husband:            James &quot;Jim&quot; Klenke
 
 ----------------------------------------------------------------------------
 
+Full name:          George Klenke
+Gender:             Male (deceased)
+
+----------------------------------------------------------------------------
+
 Full name:          Grayson Klenke
 Gender:             Male
 Mother:             Anne Klenke
 Father:             Benjamin &quot;Ben&quot; Klenke
+
+----------------------------------------------------------------------------
+
+Full name:          Gust Klenke
+Gender:             Male (deceased)
+Mother:             Minnie Klenke
+Father:             Louis Klenke
+Partner:            Magdelene Klenke
 
 ----------------------------------------------------------------------------
 
@@ -8632,10 +9037,36 @@ Father:             Samuel Klenke
 
 ----------------------------------------------------------------------------
 
+Full name:          Louis Klenke
+Gender:             Male (deceased)
+Partner:            Minnie Klenke
+
+----------------------------------------------------------------------------
+
+Full name:          Magdelene Klenke
+Gender:             Female (deceased)
+Partner:            Gust Klenke
+
+----------------------------------------------------------------------------
+
 Full name:          Mart Klenke
 Gender:             they/them
 Mother:             Susan Walters-Klenke
 Father:             Aaron Klenke
+
+----------------------------------------------------------------------------
+
+Full name:          Minnie Klenke
+Gender:             Female (deceased)
+Partner:            Louis Klenke
+
+----------------------------------------------------------------------------
+
+Full name:          Oscar Klenke
+Gender:             Male (deceased)
+Mother:             Minnie Klenke
+Father:             Louis Klenke
+Partner:            Beatrice Klenke
 
 ----------------------------------------------------------------------------
 
@@ -8704,6 +9135,99 @@ Full name:          XerraLezabeta Klenke
 Gender:             Female
 Mother:             Alex Klenke
 Father:             Samuel Klenke
+
+----------------------------------------------------------------------------
+
+Full name:          Bea Knaapen
+Gender:             Female
+Mother:             Mildred Marie &quot;Mickey&quot; Knaapen
+Father:             Bill Knaapen
+
+----------------------------------------------------------------------------
+
+Full name:          Bill Knaapen
+Gender:             Male (deceased)
+Partner:            Mildred Marie &quot;Mickey&quot; Knaapen
+
+----------------------------------------------------------------------------
+
+Full name:          Bob Knaapen
+Gender:             Male (deceased)
+Partner:            Lynn Knaapen
+
+----------------------------------------------------------------------------
+
+Full name:          David Knaapen
+Gender:             Male
+Mother:             Mildred Marie &quot;Mickey&quot; Knaapen
+Father:             Bill Knaapen
+Partner:            Terri Knaapen
+
+----------------------------------------------------------------------------
+
+Full name:          Joe Knaapen
+Gender:             Male
+Mother:             Mildred Marie &quot;Mickey&quot; Knaapen
+Father:             Bill Knaapen
+Partner:            Laura Knaapen
+
+----------------------------------------------------------------------------
+
+Full name:          Laura Knaapen
+Gender:             Female
+Mother:             Mildred Marie &quot;Mickey&quot; Knaapen
+Father:             Bill Knaapen
+
+----------------------------------------------------------------------------
+
+Full name:          Laura Knaapen
+Gender:             Female
+Partner:            Joe Knaapen
+
+----------------------------------------------------------------------------
+
+Full name:          Lori Knaapen
+Gender:             Female
+Partner:            Tony Knaapen
+
+----------------------------------------------------------------------------
+
+Full name:          Lynn Knaapen
+Surname at birth:   Jacklevich
+Gender:             Female
+Mother:             Mildred Marie &quot;Mickey&quot; Knaapen
+Father:             Bill Knaapen
+Late partner:       Bob Knaapen
+
+----------------------------------------------------------------------------
+
+Full name:          Mildred Marie &quot;Mickey&quot; Knaapen
+Surname at birth:   Klenke
+Gender:             Female (deceased)
+Mother:             Oscar Klenke
+Father:             Beatrice Klenke
+Partner:            Bill Knaapen
+
+----------------------------------------------------------------------------
+
+Full name:          Terri Knaapen
+Gender:             Female
+Partner:            David Knaapen
+
+----------------------------------------------------------------------------
+
+Full name:          Tony Knaapen
+Gender:             Male
+Mother:             Mildred Marie &quot;Mickey&quot; Knaapen
+Father:             Bill Knaapen
+Partner:            Lori Knaapen
+
+----------------------------------------------------------------------------
+
+Full name:          Willa Knaapen
+Gender:             Female
+Mother:             Mildred Marie &quot;Mickey&quot; Knaapen
+Father:             Bill Knaapen
 
 ----------------------------------------------------------------------------
 
@@ -8811,6 +9335,21 @@ Father:             Dan Roddan
 
 ----------------------------------------------------------------------------
 
+Full name:          Julie Rothenfluh
+Surname at birth:   Knaapen
+Gender:             Female
+Mother:             Mildred Marie &quot;Mickey&quot; Knaapen
+Father:             Bill Knaapen
+Partner:            Russ Rothenfluh
+
+----------------------------------------------------------------------------
+
+Full name:          Russ Rothenfluh
+Gender:             Male
+Partner:            Julie Rothenfluh
+
+----------------------------------------------------------------------------
+
 Full name:          Joe Smith
 Gender:             Male (deceased)
 Ex-wife:            Deborah &quot;Debby&quot; Klenke (divorced)
@@ -8822,6 +9361,14 @@ Surname at birth:   Walters
 Gender:             Female
 Husband:            Aaron Klenke
 Ex-husband:         William &quot;Bill&quot; Jay (divorced)
+
+----------------------------------------------------------------------------
+
+Full name:          Lillian Zettle
+Surname at birth:   Klenke
+Gender:             Female (deceased)
+Mother:             Oscar Klenke
+Father:             Beatrice Klenke
 
 ----------------------------------------------------------------------------
 
@@ -9630,7 +10177,7 @@ Ex-husband:         William &quot;Bill&quot; Jay (divorced)
 			<TR HEIGHT="8">
 				<TD STYLE="border-top:solid #666666 1px; padding:8px;" VALIGN="middle">
 					<DIV STYLE="float:left;">
-Read-only HTML downloaded by Aaron Klenke on 25 Jan 2024 &ndash; <a href="#" id="export_show_" class="selbold" onclick="return EES('');">View Tree</a> &ndash; <a href="#" id="export_show_gedcom" onclick="return EES('gedcom');">GEDCOM</a> &ndash; <a href="#" id="export_show_newscript" onclick="return EES('newscript');">FamilyScript</a> &ndash; <a href="#" id="export_show_csv" onclick="return EES('csv');">CSV</a> &ndash; <a href="#" id="export_show_text" onclick="return EES('text');">Plain Text</a>					</DIV>
+Read-only HTML downloaded by Aaron Klenke on 2 Feb 2024 &ndash; <a href="#" id="export_show_" class="selbold" onclick="return EES('');">View Tree</a> &ndash; <a href="#" id="export_show_gedcom" onclick="return EES('gedcom');">GEDCOM</a> &ndash; <a href="#" id="export_show_newscript" onclick="return EES('newscript');">FamilyScript</a> &ndash; <a href="#" id="export_show_csv" onclick="return EES('csv');">CSV</a> &ndash; <a href="#" id="export_show_text" onclick="return EES('text');">Plain Text</a>					</DIV>
 					<DIV STYLE="float:right;">
 <A HREF="http://www.familyecho.com/" TITLE="Family Echo - Free Online Family Tree Maker"><IMG SRC="data:;base64,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" CLASS="felogo" WIDTH="80" HEIGHT="16" BORDER="0" ALT="Family Echo" ALIGN="ABSBOTTOM"></A> &copy; Familiality 2007-2024 - All rights reserved					</DIV>
 				</TD>
